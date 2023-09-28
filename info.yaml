@@ -21,7 +21,7 @@ project:
     - raybox-zero/src/rtl/row_render.v
     - raybox-zero/src/rtl/vga_mux.v
     - raybox-zero/src/rtl/vga_sync.v
- top_module:  "tt_um_algofoogle_tt05_raybox_zero"      # Must start with "tt_um_".
+  top_module: "tt_um_algofoogle_tt05_raybox_zero"      # Must start with "tt_um_".
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "4x2"
@@ -35,7 +35,7 @@ yaml_version: 4
 # Here is a great example: https://github.com/davidsiaw/tt02-davidsiaw-stackcalc/blob/38c5647f83aad2aec675d566aa3d67b98f0aac81/info.yaml
 documentation: 
   author:       "algofoogle (Anton Maurovic)"
-  title:        "raybox-zero V2"
+  title:        "raybox-zero V2 (TT05)"
   language:     "Verilog"
   description:  "TT05 version of Anton's simple VGA ray caster game demo"
 
